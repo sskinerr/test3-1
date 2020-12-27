@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>jQuery</title>
+				<link rel="stylesheet" href="jq.css">
+<script src="jq.min.map"></script>
+<script src="button.js"></script>
+</head>
+<body id="kola" bgcolor="black">
+<body class="body_hide">
+				<p id="sss">Список jQuery-тегов</p>
+				<a href="index.html">
+			<img src="home2.png" id="h3"	alt=":("></a>
+				<!--  -->
+				<button type="button" id="top-btn">
+     <img id="bp" src="button.png" alt="png">
+     <lol id="scroll-info"></lol>
+     </button>
+				
+	<!-- . --><!-- . --><!-- . --><!-- . -->
+   
+     <ul class="menu">
+     <li class="item">Меню
+     <div class="sub-menu">
+     <ul class="smbox">
+     				
+    <div id="ssl">
+    <div id="zindex">
+    <a href="#" onclick="slowScroll('#a1')">
+    <p id="b2" style="font-size:100%;"
+    >Базовые селекторы</p></a>
+    
+    <a href="#" onclick="slowScroll('#a2')">
+    	<p id="b2" style="font-size:100%;"
+    	>Иерархические селекторы</p></a>
+  
+    	<a href="#" onclick="slowScroll('#a3')">
+    <p id="b2" style="font-size:100%;"
+    >Селекторы форм</p></a>
+    
+    <a href="#" onclick="slowScroll('#a4')">
+    <p id="b2" style="font-size:100%;"
+    >Базовые фильтры</p></a>
+    
+    <a href="#" onclick="slowScroll('#a5')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтры контента</p></a>
+    
+    <a href="#" onclick="slowScroll('#a6')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтры видимости</p></a>
+    
+    <a href="#" onclick="slowScroll('#a7')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтры атрибутов</p></a>
+    
+    <a href="#" onclick="slowScroll('#a8')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтры семейств</p></a>
+  
+    <a href="#" onclick="slowScroll('#a9')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтры форм</p></a>
+    
+    <a href="#" onclick="slowScroll('#a00')">
+    <p id="b2" style="font-size:100%;"
+    >Фильтрация отобранных элементов</p></a>
+  
+    <a href="#" onclick="slowScroll('#a10')">
+    <p id="b2" style="font-size:100%;"
+    >Относительный поиск элементов</p></a>
+ 
+    <a href="#" onclick="slowScroll('#a11')">
+    <p id="b2" style="font-size:100%;"
+    >Работа с атрибутами элементов</p></a>
+  
+    <a href="#" onclick="slowScroll('#a12')">
+    <p id="b2" style="font-size:100%;"
+    >Работа с классами элементов</p></a>
+    
+    <a href="#" onclick="slowScroll('#a13')">
+    <p id="b2" style="font-size:100%;"
+    >Работа с атрибутом value</p></a>
+
+    <a href="#" onclick="slowScroll('#a77')">
+    <p id="b2" style="font-size:100%;"
+    >Методы для работы с контентом</p></a>
+				
+			 <a href="#" onclick="slowScroll('#a44')">
+    <p id="b2" style="font-size:100%;"
+    >Методы для вставки контента</p></a>
+				
+			 <a href="#" onclick="slowScroll('#a15')">
+    <p id="b2" style="font-size:100%;"
+    >Методы для обрамления контента</p></a>
+				
+				<a href="#" onclick="slowScroll('#a17')">
+    <p id="b2" style="font-size:100%;"
+    >Замена, удаление и клонирование 
+     элементов</p></a>
+     
+    <a href="#" onclick="slowScroll('#a18')">
+    <p id="b2" style="font-size:100%;"
+    >Стандартная анимация</p></a>
+				
+				<a href="#" onclick="slowScroll('#a19')">
+    <p id="b2" style="font-size:100%;"
+    >Управление анимацией</p></a></ul></div>
+ </div></li></div>
+ </div></li></ul>
+
+<!--  --><!--  --><!--  --><!--  -->
+<div id="wq"></div>
+<table id="qw" cellspacing="3">
+ <div class="text_wrap">
+ <td class="lll">
+<h2 id="zo" align="center">
+Подключение jQuery</h2></td>
+</h1>
+</div><div class="spora_block"><tr class="aaa">
+<td class="bbb"> 		
+	<p class="ccc">
+<span id="color: #000080;"><span>&lt;script type=&#8221;text/javascript&#8221; src=&#8221;/папка с jquery/jquery-1.4.2.js&#8221;&gt;&lt;/script&gt;</span> </span>//подключение библиотеки jQuery в head страниц</td></tr>
+<tr class="aaa"></p>
+<td class="bbb"><p class="ccc">
+<span id="color: #ff0000;">&lt;script type=&#8221;text/javascript&#8221; src=&#8221;http://code.jquery.com/jquery-latest.js&#8221;&gt;&lt;/script&gt;</span> //подключение библиотеки со сторонних сервисов (в данном примере будет загружаться последняя версия библиотеки с официального сайта)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff0000;">&lt;script type=&#8221;text/javascript&#8221; src=&#8221;http://ajax.googleapis.com/ajax/libs/jquery/1/ jquery.min.js&#8221;&gt;&lt;/script&gt;</span> //подключение библиотеки со сторонних сервисов (в данном примере будет загружаться последняя версия библиотеки с сервиса Google)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff0000;">$(document).ready(function () { &#8230; });</span> //Выполнение сценария только после загрузки всей страницы</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff0000;">$(function () { &#8230; });</span> //Сокращенная запись предыдущего примера</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff0000;">jQuery(function () { &#8230; });</span> //если в проекте используются другие библиотеки с функцией $();</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff0000;">&lt;script type=&#8221;text/javascript&#8221;&gt; jQuery.noConflict(); &lt;/script&gt; </span>//без конфликтное подключение jQuery в проекте, который использует несколько библиотек.</p></td></tr>
+
+
+
+
+
+
+<td class="lll">
+<h1 class="qaz">
+Выборка элементов</td>
+</h1>
+
+		
+<tr class="bbb"><td class="zz">
+	<div id="a1"></div>
+<h4 class="qaz">Базовые селекторы</td>
+</h4>
+<tr class="bbb"><td class="bbb">
+
+
+<span id="color: #993366;">
+				
+$( &#8221; * &#8221; )</span> //выбор абсолютно всех элементов присутствующих в текущем html-документе</p></td></tr></p>
+
+
+
+
+
+
+<tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;"><span id="color: #993366;">$( &#8221; #mydiv &#8221; )</span> </span>// выбор элемента на странице по названию уникального идентификатора (будет отобран элемент с id=&#8221;mydiv&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;"><span id="color: #993366;">$( &#8221; .myclass &#8221; )</span> </span>//выбор элементов на странице по названию класса (будут отобраны все элементы, которым присвоен класс &#8220;myclass&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993366;">$( &#8221; p &#8221; ) </span>// выбор элементов на странице по названию тега (будут отобраны все параграфы, находящиеся на странице)</p></td></tr><td class="zz"><div id="a2"></div>
+<h4 class="qaz">Иерархические селекторы</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; div.demo span &#8221; )</span> // выбор всех span, находящихся внутри блока с классом demo (будут отобраны все &#8220;span&#8221;, которые находятся внутри &#8220;div&#8221; с классом &#8220;demo&#8221;, если в span будет вложен еще один span, то он тоже будет отобран)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; div &#8220;, &#8221; #myid &#8221; ) </span>// то же, что и в предыдущих примерах (будут отобраны все &#8220;div&#8221;, которые находятся внутри блока с идентификатором &#8220;myid&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; div.myclass &gt; span &#8221; )</span> // выбор дочерних элементов (будут отобраны все span, находящийся в блоке с классом &#8220;myclass&#8221;, и являющиеся дочерними (потомками первого уровня) по отношению к этому блоку, если в span будет вложен еще один span, то он не будет отобран)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; #demo + p &#8221; ) </span>// выбор следующего за указанным элемента (будет отобран параграф, находящийся сразу же за элементом с идентификатором &#8220;demo&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; а ~ p &#8221; )</span> // выбор всех, следующих за указанным элементов (будут отобраны все параграфы, находящийся за ссылкой и являющиеся сестринскими по отношению к этой ссылке)</p></td></tr><td class="zz">
+				
+				<div id="a3"></div>
+<h4 class="qaz">Селекторы форм</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; :input &#8221; )</span> // выбор всех элементов input</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:text &#8221; )</span> // выбор всех элементов input с type=&#8221;text&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:password &#8221; ) </span>// выбор всех элементов input с type=&#8221;password&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:radio &#8221; )</span> // выбор всех элементов input с type=&#8221;radio&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:checkbox &#8221; )</span> // выбор всех элементов input с type=&#8221;checkbox&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:reset &#8221; ) </span>// выбор всех элементов input с type=&#8221;reset&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:submit &#8221; )</span> // выбор всех элементов input с type=&#8221;submit&#8221;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:button &#8221; )</span> // выбор всех элементов input, являющихся кнопками (кнопки с атрибутом button, или кнопки созданные с помощью тегов button)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #339966;">$( &#8221; input:file &#8221; )</span> // выбор всех элементов input с type=&#8221;file&#8221;</p></td></tr><td class="zz">
+				
+				
+				<div id="a4"></div>
+<h4 class="qaz">Базовые фильтры</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; div:odd &#8221; )</span> //выбор нечетных блоков &#8220;div&#8221; на странице (будут отобраны только нечетные элементы &#8220;div&#8221;, присутствующие на странице &#8211; отсчет начинается с нуля)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; #mytable tr:even &#8221; )</span> //выбор четных &#8220;tr&#8221; в таблице (будут отобраны только четные элементы &#8220;tr&#8221; из таблицы с идентификатором &#8220;mytable&#8221; &#8211; отсчет начинается с нуля)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; img:not(#mypic img) &#8221; )</span> //выбор всех элементов на странице кроме указанных (будут отобраны все элементы &#8220;img&#8221;, присутствующие на странице, кроме изображений, расположенных в блоке с идентификатором &#8220;mypic&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; div:eq(3) &#8221; )</span> //выбор элемента по порядковому номеру (будут отобран четвертый по счету блок &#8220;div&#8221; на текущей странице &#8211; отсчет начинается с нуля)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; div:gt(1) &#8221; )</span> //выбор элементов c индексом большим, чем указано в параметре (будут отобраны все блоки &#8220;div&#8221; на текущей странице начиная с третьего &#8211; отсчет начинается с нуля)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; div:lt(3) &#8221; )</span> //выбор элементов c индексом меньшим, чем указано в параметре (будут отобраны все блоки &#8220;div&#8221; на текущей странице до третьего включительно &#8211; отсчет начинается с нуля)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; :header &#8221; )</span> //выбор всех заголовков на текущей странице</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; div:animated &#8221; )</span> //выбор всех блоков &#8220;div&#8221;, анимированных в текущий момент времени</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; p:first &#8221; ) </span>//выбор первого абзаца в текущем документе</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">$( &#8221; p:last &#8221; )</span> //выбор последнего абзаца в текущем документе</p></td></tr><td class="zz">
+				<div id="a5"></div>
+<h4 class="qaz">Фильтры контента</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">$( &#8221; p:contains ( текст ) &#8221; ) </span>//выбор элементов в текущем документе в содержимом которых встретится текст, переданный параметром в фильтр (будут отобраны все параграфы содержащие внутри себя слово &#8220;текст&#8221;)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">$( &#8221; div:empty &#8221; ) </span>//выбор всех пустых элементов (будут отобраны все блоки &#8220;div&#8221; на текущей странице, не содержащие внутри себя ничего, включая текст)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">$( &#8221; div:parent &#8221; )</span> //выбор всех элементов содержащих внутри себя дочерние элементы (будут отобраны все блоки &#8220;div&#8221; на текущей странице, внутри которых есть дочерние элементы, включая текст)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">$( &#8221; div:has( span.red ) &#8221; )</span> //выбор всех элементов, которые содержат внутри себя хотя бы один из элементов переданный в параметре фильтра (будут отобраны все блоки &#8220;div&#8221; на текущей странице, содержащие внутри себя хотя бы один span с классом red)</p></td></tr><td class="zz"><div id="a6"></div>
+<h4 class="qaz">Фильтры видимости</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #00ff00;">$( &#8221; div:hidden &#8221; )</span> //выбор всех скрытых элементов на текущей странице</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #00ff00;">$( &#8221; div:visible &#8221; )</span> //выбор всех видимых элементов на текущей странице</p></td></tr><td class="zz">
+				<div id="a7"></div>
+<h4 class="qaz">Фильтры атрибутов</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; [alt] &#8221; )</span> //выбор элементов на текущей странице, содержащих указанный атрибут (будут отобраны все элементы на текущей странице, у которых есть атрибут alt)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; [alt=myatr] &#8221; ) </span>//выбор элементов на текущей странице, содержащих указанный атрибут с указанным значением (будут отобраны все элементы на текущей странице, у которых есть атрибут alt со значением myatr)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; [alt!=myatr] &#8221; )</span> //выбор элементов на текущей странице, содержащих указанный атрибут, но у которых значение не равно указанному (будут отобраны все элементы на текущей странице, у которых есть атрибут alt, содержащие значение не myatr)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; [alt^=myatr] &#8221; )</span> //выбор элементов на текущей странице, содержащих указанный атрибут, у которых значение начинается с указанного (будут отобраны все элементы на текущей странице, у которых есть атрибут alt и значение будет начинаться со слова myatr)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; [alt$=myatr] &#8221; ) </span>//выбор элементов на текущей странице, содержащих указанный атрибут, у которых значение заканчивается указанным (будут отобраны все элементы на текущей странице, у которых есть атрибут alt и значение будет заканчиваться словом myatr)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; img[src*=pic] &#8221; )</span> // выбор элементов по части значения атрибута (будут отобраны все изображения, находящийся на странице, у которых в атрибуте &#8220;src&#8221; встречается слово &#8220;pic&#8221;)</p></td></tr><td class="zz">
+<div id="a8"></div><h4 class="qaz">Фильтры семейств</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:first-child &#8221; )</span> // выбор первого дочернего элемента (будет отобран первый дочерний элемент в блоке div на текущей странице)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:last-child &#8221; )</span> // выбор последнего дочернего элемента (будет отобран последний дочерний элемент в блоке div на текущей странице)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:only-child &#8221; ) </span>// выбор единственного дочернего элемента (будет отобран единственный дочерний элемент в блоке div на текущей странице, который содержит этот элемент &#8211; если в блоке будет содержаться несколько дочерних элементов, то ничего отобрано не будет)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:nth-child(even) &#8221; )</span> // выбор четных дочерних элементов (будут отобраны все четные дочерние элементы в блоке div на текущей странице)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:nth-child(odd) &#8221; )</span> // выбор нечетных дочерних элементов (будут отобраны все нечетные дочерние элементы в блоке div на текущей странице)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:nth-child(2) &#8221; )</span> // выбор дочерних элементов с заданным индексом (будет отобран третий дочерний элемент в блоке div на текущей странице)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">$( &#8221; div:nth-child(2n+1) &#8221; )</span> // выбор дочерних элементов по формуле (будут отобраны все нечетные дочерние элементы в блоке div на текущей странице)</p></td></tr><td class="zz"><div id="a9"></div>
+<h4 class="qaz">Фильтры форм</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff6600;">$( &#8221; :enabled &#8221; )</span> // выбор всех активных элементов форм</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff6600;">$( &#8221; :disabled &#8221; )</span> // выбор всех неактивных элементов форм</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff6600;">$( &#8221; :checked &#8221; )</span> // выбор всех отмеченных элементов форм (выбранные радиокнопки и чекбоксы)</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff6600;">$( &#8221; :selected &#8221; )</span> // выбор всех выбранных элементов форм (выбранный option элемент в select)</p></td></tr>
+
+<tr>
+<td class="lll">
+<h1 class="qaz">
+Методы манипуляции элементами</td>
+</h1></tr>
+
+
+
+<td class="zz">
+	<div id="a00"></div>
+<h4 class="qaz">Фильтрация отобранных элементов</td>
+</h4>
+
+
+
+
+
+
+<tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #cbdddd;">.is()</span> //вернёт значение true, если среди отобранных ранее элементов присутствует хотя бы один, указанный в параметре и false &#8211; если такого элемента нет</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #cbdddd;">.not()</span> // исключит из отобранных ранее элементы, которые указаны в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc">.<span id="color: #cbdddd;">eq(index)</span> // выберет элемент из отобранных ранее, с указанным в параметре индексом.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #cbdddd;">.slice(startIndex, endIndex) </span>// выберет элементы из ранее отобранных, индекс которых находится в диапазоне, указанном в параметре (отсчет начинается с 0). При указании отрицательных значений в параметре, отсчет начинается с 1. Второй параметр не обязателен.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #cbdddd;">.filter() </span>// выберет элемент из отобранных ранее, которые соответствуют указанному в параметре условию.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #cbdddd;">.filter(fn)</span> // выберет элементы из отобранных ранее, которые соответствуют значению, возвращенному из функции (при условии trye), указанной в параметре.</p></td></tr><td class="zz">
+				<div id="a10"></div>
+<h4 class="qaz">Относительный поиск элементов</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.siblings()</span> //возвращает элементы, которые являются соседними для отобранных ранее объектов и имеют общего родителя.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.parent() </span>//возвращает элементы, которые являются прямыми родителями для отобранных ранее объектов.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.parents() </span>//возвращает все родительские элементы для отобранных ранее объектов (независимо от уровня вложенности.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.children() </span>//возвращает дочерние элементы каждого из отобранных ранее объектов</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.next()</span> //возвращает элемент, который расположен следующим за объектом из отобранных ранее.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.nextAll()</span> ///возвращает все элементы, который расположены следующими за объектом из отобранных ранее.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.prev()</span> //возвращает один элемент, который расположен перед объектом из отобранных ранее.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #808000;">.prevAll()</span> //возвращает все элементы, который расположены перед объектом из отобранных ранее.</p></td></tr><td class="zz">
+				<div id="a11"></div>
+<h4 class="qaz">Работа с атрибутами элементов</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">.attr(name)</span> //Вернет значение атрибута, указанного в параметре метода, для первого объекта из отобранного набора элементов.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">.attr(name, value)</span> //Присвоит значение (value) атрибуту, указанному в параметре метода (name), для объектов из отобранного набора.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">.attr(name, fn)</span> //Присвоит значение атрибуту, указанному в параметре метода (name), которое возвращает пользовательская функция (fn), для всех объектов из отобранного набора.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">.attr(settings)</span> //Объектам из отобранного набора, присвоит атрибуты с соответствующими значениями, перечень которых указан в параметре метода.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #0000ff;">.removeAttr(name)</span> //Удалит атрибут, указанный в параметре метода, у всех отобранных ранее объектов, обладающих этим атрибутом.</p></td></tr><td class="zz">
+				<div id="a12"></div>
+<h4 class="qaz">Работа с классами элементов</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993300;">.hasClass(name)</span> //проверяет наличие элемента с классом, имеющим значение, указанное в параметре метода. Вернет true, если в выбранном наборе присутствует хотя бы один элемент у которого атрибут class имеет значение, указанное в параметре метода. В противном случае вернет false.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993300;">.addClass(name)</span> //добавит к атрибуту class отобранных элементов значение (name),  указанное в параметре метода.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993300;">.removeClass(name)</span> //удалит значение (name) атрибута class, указанное в параметре метода, у всех элементов в выбранном наборе, которым присвоен атрибут class с указанным значением</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993300;">.toggleClass(name)</span> //добавит атрибут class со значением (name), указанным в параметре метода, ко всем элементам в выбранном наборе, у которых отсутствует это значение, и удалит значение (name) атрибута class, указанное в параметре метода, у всех элементов в выбранном наборе, которым присвоен атрибут class с данным значением</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #993300;">.toggleClass(name, switch)</span> //Добавит сласс, указанный в первом параметре (name) метода, если второй параметр (функция switch) возвращает значение true, или удалит указанный класс, если функция switch вернет false.</p></td></tr><td class="zz">
+				<div id="a13"></div>
+<h4 class="qaz">Работа с атрибутом value</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008080;">.val()</span> //вернет значение атрибута value для первого элемента input, содержащегося в отобранном наборе. Для элемента select с возможностью множественного выбора, вернет массив значений (option), которые выбраны в первом элементе.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008080;">.val(string) </span>//установит значение value, указанное в параметре (string) метода для всех отобранных элементов input</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008080;">.val(array)</span> //принимает в качестве параметра строковый массив со значениями для радиокнопок, чекбоксов и select</p></td></tr><td class="zz">
+				<div id="a77"></div>
+<h4 class="qaz">Методы для работы с контентом</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #99cc00;">.text()</span> //возвращает текстовое содержимое всех элементов в отобранном набор</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #99cc00;">.text(string)</span> //изменит текстовое содержимое элементов в отобранном наборе на строку, переданную в параметре (string) метода.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #99cc00;">.html()</span> //возвращает html содержимое первого элемента в отобранном наборе.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #99cc00;">.html(string)</span> //добавит html содержимое, переданное в параметре (string) метода, для всех элементов в отобранном наборе</p></td></tr><td class="zz">
+				<div id="a44"></div>
+<h4 class="qaz">Методы для вставки контента</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.append(content)</span> //вставляет контент, переданный в параметре (content) метода, внутрь каждого элемента из отобранного набора за уже существующим содержимым элемента.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.appendTo(selector)</span> //перемещает элементы из отобранного набора внутрь элемента, указанного в параметре (selector) метода, в конец содержимого элемента.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.prepend(content)</span> //вставляет контент, переданный в параметре (content) метода, внутрь каждого элемента из отобранного набора перед уже существующим содержимым элемента.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.prependTo(selector)</span> //перемещает элементы из отобранного набора внутрь элемента, указанного в параметре (selector) метода, в начало содержимого элемента.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.before(content)</span> //вставляет контент, переданный в параметре (content) метода, перед каждым элементом из отобранного набора.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.after(content)</span> //вставляет контент, переданный в параметре (content) метода, после каждого элемента из отобранного набора.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.insertBefore(selector)</span> //перемещает элементы из отобранного набора в позицию перед элементом, указанным в параметре (selector) метода.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff9900;">.insertAfter(selector)</span> //перемещает элементы из отобранного набора в позицию после элемента, указанного в параметре (selector) метода.</p></td></tr><td class="zz">
+				<div id="a15"></div>
+<h4 class="qaz">Методы для обрамления контента</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrap(html)</span> //оборачивает каждый из отобранных элементов в html, указанный в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrap(element) </span>//оборачивает каждый отобранный элемент в DOM-элемент, указанный в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrapAll(html)</span> //оборачивает все отобранные элементы в html, указанный в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrapAll(element)</span> //оборачивает все отобранные элементы в DOM-элемент, указанный в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrapInner(html)</span> //оборачивает содержимое каждого отобранного элемента в html, указанный в параметре.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #ff00ff;">.wrapInner(element)</span> //оборачивает содержимое каждого отобранного элемента в DOM-элемент, указанный в параметре.</p></td></tr>
+
+<td class="zz">
+				<div id="a17"></div>
+<h4 class="qaz">Замена, удаление и клонирование элементов</td>
+</h4><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #333399;">.replaceAll(selector)</span> //заменит элемент, указанный в параметре метода, на элемент из отобранного набора.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #333399;">.replaceWith(content)</span> //заменит элементы из отобранного набора, строкой (включая html), переданной в параметре (content) метода.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #333399;">.empty()</span> //удаляет все содержимое (включая дочерние элементы) из объектов в отобранном наборе.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #333399;">.remove(expression)</span> //удаляет все элементы из отобранного набора. В качестве параметра может принимать дополнительные условия для удаления элементов.</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #333399;">.clone()</span> //клонирует элементы из отобранного ранее набора. Если в параметре метода передать true, то будут скопированы и методы, примененные к клонируемому элементу.</p></td></tr></tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td class="lll">
+
+<h1 class="qaz">
+Методы анимации объектов</td>
+</h1></tr>
+<td class="zz">
+					<div id="a18"></div>
+<h4 class="qaz">Стандартная анимация</td>
+</h4></tr>
+				
+				
+				
+<tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.hide()</span> //скрывает элементы из отобранного набора (без анимационных эффектов), если до применения метода элементы были видимы.</p></td></tr>
+
+
+
+
+
+
+
+
+
+<tr class="aaa">
+				
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.hide(speed, fn)</span> //скрывает элементы из отобранного набора, если до применения метода элементы были видимы. Принимает два необязательных параметра, скорость (speed) с которой будет спрятан элемент (указывается в миллисекундах, или с помощью ключевого слова) и callback функция, которая будет выполнена после исчезновения элемента. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.show()</span> //показывает элементы из отобранного набора (без анимационных эффектов), если до применения метода элементы были скрыты. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.show(speed, fn)</span> //показывает элементы из отобранного набора, если до применения метода элементы были скрыты. Принимает два необязательных параметра, скорость (speed) с которой будет показан элемент (указывается в миллисекундах, или с помощью ключевого слова) и callback функция, которая будет выполнена после того, как элемент станет видимым. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.toggle()</span> //скрывает элементы из отобранного набора (без анимационных эффектов), если до применения метода элементы были видимы и показывает элементы из отобранного набора (без анимационных эффектов), если до применения метода элементы были скрыты (может использоваться как обработчик события onClick и применяет методы hide и show) Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.toggle(switch)</span> //Принимает в качестве параметра (switch) булево значение true или false. Вызывается непосредственно для изменения состояния выбранных элементов. Если параметр равен true, то элемент будет показан. Если параметр равен false, то элемент будет спрятан. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.toggle(speed, fn)</span> //скрывает элементы из отобранного набора, если до применения метода элементы были видимы и показывает элементы из отобранного набора, если до применения метода элементы были скрыты. Принимает два необязательных параметра, скорость (speed) с которой будет показан/скрыт элемент (указывается в миллисекундах, или с помощью ключевого слова) и callback функция, которая будет выполнена после того, как элемент станет скрытым/видимым. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.fadeIn(speed, fn)</span> //показывает элементы из отобранного набора, изменяя их прозрачность, если до применения метода элементы были скрыты. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.fadeOut(speed, fn)</span> //скрывает элементы из отобранного набора, изменяя их прозрачность, если до применения метода элементы были видимы. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.fadeTo(speed, opacity, fn)</span> //изменяет прозрачность отобранных элементов до заданного в параметрах метода значения. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.slideUp(speed, fn)</span> //скрывает элементы из отобранного набора, изменяя их высоту, если до применения метода элементы были видимы. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.slideDown(speed, fn) </span>//показывает элементы из отобранного набора, изменяя их высоту, если до применения метода элементы были скрыты. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #008000;">.slideToggle(speed, fn)</span> //скрывает элементы из отобранного набора, если до применения метода элементы были видимы и показывает элементы из отобранного набора, если элементы были скрыты (может использоваться как обработчик события onClick и применяет методы slideDown и slideUp) Подробнее&#8230;</p></td></tr>
+
+
+
+
+
+<tr>
+				
+	<td class="zz">
+	<div id="a19"></div>
+<h4 class="qaz">Управление анимацией</h4></td>
+</tr>
+				
+				
+				
+				
+				
+				<tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.animate() </span>//выполняет анимацию, заданную пользователем, с элементами из отобранного набора.Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.queue()</span> //добавляет, или изменяет очередь функций, в зависимости от переданных в методе параметров.Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.clearQueue()</span> //очищает очередь функций, примененных к элементам из отобранного набора. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.dequeue()</span> //начинает выполнение следующей в очереди функции, примененной к отобранным элементам, не дожидаясь окончания выполнения предыдущей. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.stop()</span> //прерывает выполнение текущей анимации, примененной к отобранному набору элементов.Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">.delay()</span> //устанавливает временной промежуток, переданный в параметре метода, перед началом выполнения следующей в очереди функции, примененной к отобранному набору элементов. Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">jQuery.fx.interval</span> //устанавливает временной промежуток между кадрами анимации, примененной к отобранному набору элементов. Свойство является глобальным для любой анимации в библиотеке.Подробнее&#8230;</p></td></tr><tr class="aaa">
+<td class="bbb">
+<p class="ccc"><span id="color: #003366;">jQuery.fx.off</span> //отключает все анимации, выполняемые при помощи библиотеки jQuery, если методу передается параметр true.</p></td></tr></div>
+</table>
+</body>
+</html>
